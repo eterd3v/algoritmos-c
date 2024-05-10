@@ -3,7 +3,7 @@
 **Para volver a la lista haz clic [aquí](./Index.md)**
 
 <!-- TOC -->
-* [Apartados](#apartados)
+* [Índice del problema](#índice-del-problema)
 * [Enunciado](#enunciado)
 * [Solución](#solución)
 <!-- TOC -->
