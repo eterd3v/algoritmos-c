@@ -1,4 +1,8 @@
-# Índice de problemas de Vuelta Atrás
+# Vuelta Atrás
+
+***
+
+## Índice de problemas
 
 **Para ver otras técnicas haz clic [aquí](../README.md)**
 

@@ -1,5 +1,7 @@
 # Índice del problema
 
+***
+
 **Para volver a la lista haz clic [aquí](./Index.md)**
 
 <!-- TOC -->
@@ -10,6 +12,9 @@
 <!-- TOC -->
 
 # Enunciado
+
+***
+
 Un archipiélago está formado por varias islas. Existen una serie de puentes de dirección
 única que unen ciertos pares de islas entre sí. Para cada puente se conoce su anchura, que
 siempre es mayor que 0.
@@ -20,6 +25,9 @@ Diseñar un algoritmo basado en Programación Dinámica para saber, si existe, c
 es el camino de anchura máxima entre todo par de islas.
 
 # Solución base
+
+***
+
 [Este problema](#enunciado) se puede resolver en C de la siguiente forma:
 
 ```c
@@ -31,7 +39,7 @@ int max(int a, int b){
     return a < b ? b : a; 
 }
 
-void anchuraMax(imatriz2d anchuras, imatriz2d A){
+void anchuraMax (imatriz2d anchuras, imatriz2d A) {
     int i, j, k, temp;
     for (i=0; i < N; ++i)                            // Inicialización para k==0
         for (j=0; j < N; ++j)                        // No hay que pasar por puentes intermedios,
@@ -79,6 +87,8 @@ int main() {
 
 # Solución más completa
 
+***
+
 [Este problema](#enunciado) se puede resolver en C de la siguiente forma:
 
 ```c
@@ -120,7 +130,7 @@ int main() {
             if (i==j) anchuras[i][j] = -INF;
         }
 
-    int cantidadQuitar = ...        /* Cualquier cantidad de puentes a quitar */
+    int cantidadQuitar = ...        /* Cualquier cantsoidad de puentes a quitar */
     for (int i = 0; i < cantidadQuitar; ++i) {
         int f = /* Cualquier fila */,  c = /* Cualquier columna */
         if (f!=c)

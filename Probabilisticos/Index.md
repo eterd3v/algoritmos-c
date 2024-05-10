@@ -1,4 +1,9 @@
-# Índice de problemas Probabilísticos
+# Probabilísticos
+
+***
+
+## Índice de problemas
+
 **Para ver otras técnicas haz clic [aquí](../README.md)**
 
 1. [abc](../README.md)

@@ -1,17 +1,25 @@
 # Índice del problema
 
+***
+
 **Para volver a la lista haz clic [aquí](./Index.md)**
 
 <!-- TOC -->
-* [Apartados](#apartados)
+* [Índice del problema](#índice-del-problema)
 * [Enunciado](#enunciado)
 * [Solución](#solución)
 <!-- TOC -->
 
 # Enunciado
+
+***
+
 ![Función recursiva de Programación dinámica](./parcial3.jpeg "Función recursiva de Programación dinámica")
 
 # Solución
+
+***
+
 [Este problema](#enunciado) se puede resolver en C de la siguiente forma:
 
 ```c

@@ -1,19 +1,27 @@
 # Índice del problema
 
+***
+
 **Para volver a la lista haz clic [aquí](./Index.md)**
 
 <!-- TOC -->
-* [Apartados](#apartados)
+* [Índice del problema](#índice-del-problema)
 * [Enunciado](#enunciado)
 * [Solución](#solución)
 <!-- TOC -->
 
 # Enunciado
+
+***
+
 Implementa un algoritmo Basado en Programación dinámica que calcule la siguiente
 función:
 ![descripcion](./relacion2.png "titulo")
 
 # Solución
+
+***
+
 [Este problema](#enunciado) se puede resolver en C de la siguiente forma:
 
 ```c
@@ -30,4 +38,3 @@ float funcion(int n, int m) {
     return sumatoria;
 }
 ```
-

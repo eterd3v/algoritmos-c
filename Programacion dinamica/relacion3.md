@@ -1,14 +1,19 @@
 # Índice del problema
 
+***
+
 **Para volver a la lista haz clic [aquí](./Index.md)**
 
 <!-- TOC -->
-* [Apartados](#apartados)
+* [Índice del problema](#índice-del-problema)
 * [Enunciado](#enunciado)
 * [Solución](#solución)
 <!-- TOC -->
 
 # Enunciado
+
+***
+
 Implementa un algoritmo basado en PD que, dados dos valores enteros ``m, n``, y un ``vector V``
 que como mínimo tenga ``m+1 elementos``, calcule el valor de Q(m, n) según la siguiente
 función:
@@ -16,6 +21,9 @@ función:
 ![descripcion](./relacion3.png "titulo")
 
 # Solución
+
+***
+
 [Este problema](#enunciado) se puede resolver en C de la siguiente forma:
 
 ```c

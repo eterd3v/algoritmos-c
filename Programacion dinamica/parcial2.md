@@ -1,14 +1,18 @@
 # Índice del problema
 
+***
+
 **Para volver a la lista haz clic [aquí](./Index.md)**
 
 <!-- TOC -->
-* [Apartados](#apartados)
+* [Índice del problema](#índice-del-problema)
 * [Enunciado](#enunciado)
 * [Solución](#solución)
 <!-- TOC -->
 
 # Enunciado
+
+***
 
 Grupo 5 del curso 22-23
 
@@ -24,6 +28,8 @@ El vector v debe tener p+1 elementos
 ```
 
 # Solución
+***
+
 [Este problema](#enunciado) se puede resolver en C de la siguiente forma:
 
 ```c
