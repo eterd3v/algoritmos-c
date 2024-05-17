@@ -42,20 +42,20 @@ partidas que empiecen con la ficha Tres-Doble y coloquen todas las fichas.
 #define NULO -2
 
 void va (int resto, imatriz2d mtx, int i, int j) {
-    if (mtx[i][j] == LIBRE)         // El resto de casillas son NULO
+    if (mtx[i][j] == LIBRE)             // El resto de casillas son NULO
         if (resto == 1) {
-            mtx[i][j] = 1;
-            mostrarMtx(mtx,N,N);
-            mtx[i][j] = LIBRE;
-            ++formas;
-        } else {
-            mtx[i][j] = resto;
-            if (i+1 < N)                va (resto-1, mtx, i+1,    j);
-            if (j+1 < N)                va (resto-1, mtx, i,      j+1);
-            if (i-1 >= 0)               va (resto-1, mtx, i-1,    j);
+            mtx[i][j] = 1;              // Indico el 1 para mostrarlo a continuación
+            mostrarMtx(mtx,N,N);        // Mostrar la solución por pantalla
+            mtx[i][j] = LIBRE;          // Vuelvo a dejar libre dicha ficha
+            ++formas;                   // Aumento el recuento
+        } else {                        // Aquí se sabe que resto > 1
+            mtx[i][j] = resto;          // Marco la ficha y ya no está libre
+            if (i+1 < N)                va (resto-1, mtx, i+1,    j);       // Se puede mover
+            if (j+1 < N)                va (resto-1, mtx, i,      j+1);     // a cualquier 
+            if (i-1 >= 0)               va (resto-1, mtx, i-1,    j);       // casilla colindante
             if (j-1 >= 0)               va (resto-1, mtx, i,      j-1);
             if (i+1 < N && j+1 < N)     va (resto-1, mtx, i+1,    j+1);     // Mov. especial
-            mtx[i][j] = LIBRE;
+            mtx[i][j] = LIBRE;          // Desmarco la ficha para que esté libre de nuevo         
         }
 }
 
@@ -64,6 +64,7 @@ void va (int resto, imatriz2d mtx, int i, int j) {
 ## Salida de la solución
 
 **Nota**: orden descendiente desde la ficha 10 hasta la 1
+**Nota**: ``DB`` es doble, ``BL`` es Blanca
 
 ```
         DB      3       2       1

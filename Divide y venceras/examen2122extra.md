@@ -5,7 +5,7 @@
 <!-- TOC -->
 * [Índice del problema](#índice-del-problema)
 * [Enunciado](#enunciado-)
-    * [Problema 2 de la ordinaria 22-23](#problema-2-de-la-ordinaria-22-23)
+    * [Problema 2 de la ordinaria 21-22](#problema-2-de-la-ordinaria-21-22)
 * [Solución](#solución)
   * [Algoritmo del problema](#algoritmo-del-problema)
   * [Salida de la solución](#salida-de-la-solución)
@@ -20,7 +20,14 @@
 
 ### Problema 2 de la ordinaria 21-22
 
+Un mínimo local de un array ``A[0...n-1]`` es un elemento A(k) que satisface que:
+- ``A(k-1) ≥ A(k) ≤ A(k+1)``
+- Como mínimo, el vector tiene 3 elementos y ``A(0) ≥ A(1)`` y ``A(n-2) ≤ A(n-1)`` 
 
+Estas condiciones garantizan la existencia de algún mínimo local.
+
+Diseña un algoritmo basado en la técnica DyV que encuentre algún mínimo local de A
+que sea más rápido que el evidente de ``O(n)`` en el peor caso.
 
 # Solución
 
@@ -28,18 +35,12 @@
 
 [Este problema](#enunciado-) se puede resolver en C de la siguiente forma:
 
-Algoritmo de floyd. En el que los nodos son los idiomas y las traducciones son las aristas. El peso de una
-arista (i, j) es el siguiente:
-- **arista(i,j) = 1**, si existe traducción directa entre el lenguaje i y el lenguaje j.
-- **arista(i,j) = ∞**, en caso contrario.
-
-De esta forma obtenemos “la longitud del camino mínimo” de la traducción entre cada par de lenguajes.
-La complejidad del algoritmo: O(n^3).
-
 ## Algoritmo del problema
 
 ```c
-int clasico (ivector v, int i, int f) {          // Como mucho se recorre desde i hasta f => O(n)
+#define UMBRAL 3                               
+
+int clasico (ivector v, int i, int f) {         // Como mucho se recorre desde i hasta f => O(n)
     while ( i <= f ) {
         while ( v[i] > v[i+1] && i+1 < f) ++i;  // Mientras haya un número más pequeño, crecer   ++i
         while ( v[f] > v[f-1] && f-1 > i) --f;  // Mientras haya un número más grande, decrecer  --f
@@ -49,12 +50,12 @@ int clasico (ivector v, int i, int f) {          // Como mucho se recorre desde 
     return v[i] > v[f] ? f : i;                 // ...se devuelve el menor de los dos
 }
 
-int minimoLocal (ivector v, int i, int f){       // a=1, b=2, r=0 => O(log2(n))
+int minimoLocal (ivector v, int i, int f) {    // a=1, b=2, r=0 => O(log2(n))
     int t = f-i+1;
     if (t <= UMBRAL) {
         return clasico(v, i, f);
     } else {
-        int m = i + t/2;
+        int m = i + t/2;                       // Buscas según que subvector sea menor
         if (v[m-1] <= v[m])     return minimoLocal(v,i,m-1);
         else                    return minimoLocal(v,m,f);
     }
@@ -74,11 +75,8 @@ Un minimo local es 5 en v[9]
 **NO HAY QUE IMPLEMENTAR EN EL EXAMEN ESTO DE AQUÍ**
 
 ```c
-void swap(ivector v, int idx1, int idx2){
-    int aux = v[idx1];
-    v[idx1] = v[idx2];
-    v[idx2] = aux;
-}
+#define N 16
+#define SEMILLA 654897
 
 int main() {
     ivector v = icreavector(N);
@@ -109,6 +107,20 @@ int main() {
 **NO HAY QUE IMPLEMENTAR EN EL EXAMEN ESTO DE AQUÍ**
 
 ```c
+void swap(ivector v, int idx1, int idx2){
+    int aux = v[idx1];
+    v[idx1] = v[idx2];
+    v[idx2] = aux;
+}
 
+void mostrar(ivector v, int t, int i, int f){
+    for (int j = 0; j < t; ++j) {
+        if (j==i)   printf("(");
+                    printf("%i",v[j]);
+        if (j==f)   printf(")");
+                    printf(", ");
+    }
+    printf("\n");
+}
 ```
 
