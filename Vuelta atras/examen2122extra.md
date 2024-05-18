@@ -18,7 +18,7 @@
 
 ***
 
-### Problema 1 de la extraordinaria 21-22
+### _Problema 1 de la extraordinaria 21-22_
 
 El juego de ***Tresminó*** es igual que el dominó, pero
 las ``fichas son solo 10``: desde la blanca doble a la tres doble. Es decir:
@@ -61,7 +61,7 @@ void va (int resto, imatriz2d mtx, int i, int j) {
 
 ```
 
-## Salida de la solución
+### Salida de la solución
 
 **Nota**: orden descendiente desde la ficha 10 hasta la 1
 **Nota**: ``DB`` es doble, ``BL`` es Blanca
@@ -96,9 +96,9 @@ BL      4       5       6       7
 Hay 17 formas de acabar el tresminó con 10 fichas
 ```
 
-## Programa principal (opcional)
+### Programa principal (opcional)
 
-**NO HAY QUE IMPLEMENTAR EN EL EXAMEN ESTO DE AQUÍ**
+**NOTA**: No hay que implementar en el examen esto de aquí.
 
 ```c
 #define FICHAS 10
@@ -119,9 +119,9 @@ int main() {
 }
 ```
 
-## Funciones auxiliares (opcional)
+### Funciones auxiliares (opcional)
 
-**NO HAY QUE IMPLEMENTAR EN EL EXAMEN ESTO DE AQUÍ**
+**NOTA**: No hay que implementar en el examen esto de aquí.
 
 ```c
 void fichaI(int x){

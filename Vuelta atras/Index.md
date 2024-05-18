@@ -17,6 +17,8 @@
 > Ejercicios telemáticos
 > 1. [abc]()
 
+> Ejercicios inventados
+> 1. [El problema del caballo de Ajedez](./problemaCaballo64.md)
 
 > Parciales de prácticas
 > 1. [abc]()

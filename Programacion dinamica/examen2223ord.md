@@ -18,7 +18,7 @@
 
 ***
 
-### Problema 2 de la ordinaria 22-23
+### _Problema 2 de la ordinaria 22-23_
 
 Se desea hacer traducciones de textos entre varios idiomas. Se dispone de varios
 traductores automáticos que permiten la traducción bidireccional entre dos idiomas. 
@@ -51,7 +51,7 @@ arista (i, j) es el siguiente:
 De esta forma obtenemos “la longitud del camino mínimo” de la traducción entre cada par de lenguajes.
 La complejidad del algoritmo: O(n^3).
 
-## Algoritmo del problema
+### Algoritmo del problema
 
 ```c
 int min(int a, int b) {
@@ -71,7 +71,7 @@ void buscarTraduccion(imatriz2d traducciones, imatriz2d S) {
 }
 ```
 
-## Salida de la solución
+### Salida de la solución
 
 ```
         DICCIONARIOS DISPONIBLES
@@ -91,7 +91,7 @@ FRA     -       -       -       -       1
 GRI     -       -       -       -       -
 ```
 
-## Programa principal (opcional)
+### Programa principal (opcional)
 
 **NO HAY QUE IMPLEMENTAR EN EL EXAMEN ESTO DE AQUÍ**
 
@@ -134,7 +134,7 @@ int main() {
 }
 ```
 
-## Funciones auxiliares (opcional)
+### Funciones auxiliares (opcional)
 
 **NO HAY QUE IMPLEMENTAR EN EL EXAMEN ESTO DE AQUÍ**
 

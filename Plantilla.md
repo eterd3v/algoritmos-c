@@ -7,30 +7,59 @@
 <!-- TOC -->
 * [Índice del problema](#índice-del-problema)
 * [Enunciado](#enunciado)
+    * [_Problema N de la ordinaria 2X-2X_](#problema-n-de-la-ordinaria-2x-2x)
 * [Solución](#solución)
+    * [Algoritmo del problema](#algoritmo-del-problema)
+    * [Algoritmo principal](#algoritmo-principal)
+    * [Algoritmos auxiliares](#algoritmos-auxiliares)
+    * [Salida de la solución](#salida-de-la-solución)
+    * [Programa principal (opcional)](#programa-principal-opcional)
+    * [Funciones auxiliares (opcional)](#funciones-auxiliares-opcional)
 <!-- TOC -->
 
 # Enunciado
 
 ***
 
+### _Problema N de la ordinaria 2X-2X_
+
+[comment]: ACTUALIZAR ÍNDICE AL ESCRIBIR EN LA PLANTILLA
+
 ![descripcion](./Plantilla.md "titulo")
 
 # Solución
 [Este problema](#enunciado) se puede resolver en C de la siguiente forma:
 
+### Algoritmo del problema
+
+### Algoritmo principal
+
 ```c
-int problema() {
-    
-    return 0;
-}
+```
+
+### Algoritmos auxiliares
+
+```c
+```
+
+### Salida de la solución
+
+```
+```
+
+### Programa principal (opcional)
+
+**NOTA**: No hay que implementar en el examen esto de aquí.
+
+```c
+```
+
+### Funciones auxiliares (opcional)
+
+**NOTA**: No hay que implementar en el examen esto de aquí.
+
+```c
 ```
 
 
-```c
-int main() {
-    
-    return 0;
-}
-```
 

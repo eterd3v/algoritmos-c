@@ -20,7 +20,7 @@
 
 ***
 
-### Problema 1 de la ordinaria 22-23
+### _Problema 1 de la ordinaria 22-23_
 
 Hay una epidemia de fiebre aftosa, enfermedad que se transmite por contacto
 directo o indirecto con animales enfermos y es altamente contagiosa. 
@@ -145,7 +145,7 @@ void quickSortMtx(imatriz2d mtx, int fila, int i, int f) {
 }
 ```
 
-## Salida de la solución
+### Salida de la solución
 
 ```
          INFORMACION DE LA COMPRA-VENTA
@@ -165,9 +165,9 @@ void quickSortMtx(imatriz2d mtx, int fila, int i, int f) {
 (1      2       -       -       5       6)
 ```
 
-## Programa principal (opcional)
+### Programa principal (opcional)
 
-**NO HAY QUE IMPLEMENTAR EN EL EXAMEN ESTO DE AQUÍ**
+**NOTA**: No hay que implementar en el examen esto de aquí.
 
 ```c
 #define SEMILLA 29
@@ -220,9 +220,9 @@ int main() {
 }
 ```
 
-## Funciones auxiliares (opcional)
+### Funciones auxiliares (opcional)
 
-**NO HAY QUE IMPLEMENTAR EN EL EXAMEN ESTO DE AQUÍ**
+**NOTA**: No hay que implementar en el examen esto de aquí.
 
 ```c
 void mostrarMtx(imatriz2d mtx, int nf, int nc){
