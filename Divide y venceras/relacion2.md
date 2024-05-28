@@ -39,7 +39,7 @@ derecha.
   - ``r = 0``, ya que la descomposición y unión es de O(n^``0``)
   - ``1 = 3^0`` ==> ``O(n^r·logb(n)) = O(log3(n))``
 - El mejor umbral es:
-  - ``n^1 = 1 * (n/3)^0 + n^0`` ; <== Igualas O(clasico)  con O(llamada antes del clásico)
+  - ``n^1 = 1 * (n/3)^0 + n^0`` ; <== Igualas O(clasico)  con O(llamada DyV del clásico)
   - ``n = 1 * 1 + 1``
   - ``n = 2``
 

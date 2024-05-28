@@ -37,10 +37,9 @@ determine qué granjas deben ser puestas en cuarentena a partir de los datos apo
 por las autoridades sanitarias.
 
 Ejemplo:
-
-``Granjas = {1, 2, 3, 4, 5, 6};`` 
-``Infectadas = {1};`` 
-``Cuarentena = {1, 2, 5, 6}``
+- ``Granjas = {1, 2, 3, 4, 5, 6}`` 
+- ``Infectadas = {1}``
+- ``Cuarentena = {1, 2, 5, 6}``
 
 |  |   |   |    |   |   |   |    |   |   |   |
 |---|---|---|----|---|---|---|----|---|---|---|

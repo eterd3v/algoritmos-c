@@ -10,8 +10,8 @@
 > 1. [Ejercicio 1 de la relación](./relacion1.md)
 > 2. [Ejercicio 2 de la relación](./relacion2.md)
 > 3. [Ejercicio 3 de la relación](./relacion3.md)
-> 4. [Ejercicio 4 de la relación]()
-> 5. [Ejercicio 5 de la relación]()
+> 4. [Ejercicio 4 de la relación](./relacion4.md)
+> 5. [Ejercicio 5 de la relación](./relacion5.md)
 > 6. [Ejercicio 6 de la relación](./relacion6.md)
 
 > Ejercicios telemáticos

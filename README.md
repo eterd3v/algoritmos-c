@@ -2,13 +2,13 @@
 
 ***
 
-Manual de resolución de diferentes tipos algoritmos en C.
+Repositorio-manual de resolución de diferentes tipos de problemas y algoritmos en C.
 
-Este repositorio sirve como solucionario de problemas.
+> **Se recomienda intentar solucionarlos sin esta ayuda de antemano**, y durante un buen rato.
 
-> **Se recomienda intentar solucionarlos sin esta ayuda de antemano**, y durante un buen rato. 
->
 > Sólo la lectura puede ser insuficiente, ya que **razonar una solución es esencial para resolver problemas del estilo.**
+
+> **No todas las soluciones son las únicas.** Ciertos problemas admiten varias (y mejores) soluciones. Consúltalo con libros o tu docente para ello.
 
  - [Divide y vencerás](./Divide%20y%20venceras/Index.md)
  - [Voraces](./Voraces/Index.md)

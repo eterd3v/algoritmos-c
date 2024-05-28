@@ -32,7 +32,7 @@ enteros de tamaño ``n``.
   - ``r = 1``, ya que la descomposición y unión es de n^``1``
   - ``2 = 2^1`` ==> ``O(n^r·logb(n)) = O(n·log2(n))``
 - El mejor umbral es:
-  - ``n^2 = 2 * (n/2)^2 + n^1`` ; <== Igualas O(clasico)  con O(llamada antes del clásico)
+  - ``n^2 = 2 * (n/2)^2 + n^1`` ; <== Igualas O(clasico)  con O(llamada DyV del clásico)
   - ``n^2 = 2 * (n^2)/4 + n`` ;
   - ``n = n/2 + 1`` ;
   - ``n/2 = 1``
