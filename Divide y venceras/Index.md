@@ -15,10 +15,17 @@
 > 6. [Ejercicio 6 de la relación](./relacion6.md)
 
 > Ejercicios telemáticos
-> 1. [abc]()
+> 1. [Ejercicio telemático 1](./tele1.md)
+> 2. [Ejercicio telemático 2](./tele1.md)
 
 > Parciales de prácticas
-> 1. [abc]()
+> 1. [Parcial desconocido I](./parcial1.md)
+> 2. []()
+> 3. []()
+> 4. []()
+  
+> Ejercicios sueltos
+> 1. [Impares mínimos de un vector](./problemaImparesMin.md)
 
 > Ejercicios de exámenes
 > 1. [Examen ordinaria 21-22](./examen2122ord.md)

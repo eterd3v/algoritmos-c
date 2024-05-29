@@ -41,9 +41,10 @@ en función de la cantidad de líquido entregada.**
   - ``a = 1``, ``b = 2``, ``r = 0`` 
   - ``1 = 2^0`` => ``O(n^0 · logb(n)) = O(log2(n))``
 
->    - **NOTA:** para ``b`` se ha tomado en cuenta la eficiencia del 
->    - ``quicksort``, ya que este es una variación. La demostración de
->    - que vale 2 viene en el libro de Brassard y Bratley
+> **NOTA:** para ``b`` se ha tomado en cuenta la eficiencia del 
+> ``quicksort``, ya que este es una variación. La demostración de
+> que vale 2 viene en el libro de Brassard y Bratley
+
 - Umbral:
   - ``n^2 = 1 * (n/2)^2 + n^0``
   - ``n^2 = n^2/4 + 1``
