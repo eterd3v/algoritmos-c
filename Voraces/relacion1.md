@@ -109,8 +109,10 @@ int seleccion(ivector vTiempo, ivector vCobrar, ivector sinUsar, int cont) {
 ```
 (3      3       4       1       6       4       5       2       1       4       6       1       2       2)
 (90     80      120     110     100     60      70      20      80      130     60      50      70      30)
- -------------    PLANIFICACION, IZQ A DER =>   -------------
+
+-------------    PLANIFICACION, IZQ A DER =>   -------------
  1      2       4       4       6       6       1       1       3       3       4       2       5       2
  110    70      130     120     100     60      0       0       0       0       0       0       0       0
+ 
  Total: 590
 ```

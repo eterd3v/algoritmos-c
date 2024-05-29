@@ -14,9 +14,10 @@
 # Enunciado
 
 ***
-[No se guarda el enunciado original]
 
-Se busca guardar de un vector ``v`` de ``N`` elementos, los ``M`` número de impares más grandes que tenga.
+**[ No se tiene el enunciado original de este problema ]**
+
+Se busca guardar de un vector ``v`` de ``N`` elementos, los ``M`` números impares más grandes que contenga.
 
 _Por ejemplo_:
 
@@ -27,19 +28,18 @@ Los 3 impares mas grandes que hay en ``v`` son ``9``, ``5`` y ``7``
 # Solución
 [Este problema](#enunciado) se puede resolver en C de la siguiente forma:
 
-* Eficiencia del clasico: ``O(n·M)``
+* Eficiencia del clasico: ``O(n·M) = O(n)``, ya que ``M`` es constante y pequeño
 * Eficiencia del DyV:
   * ``a = 2``, ``b = 2``, ``r = 0``
   * ``2 > 2^0`` => ``O(n^logb(a)) = O(n)``
   * Umbral:                                     
-    > **NOTA**: puede sea erróneo
-    * ``n·M = 2·(n/2)·M + c·n^0``
-    * ``n·M = n·M + c``
-    * ``c = 0`` => Significa que el umbral se puede usar cualquier valor
+    * ``n = 2·(n/2) + c·n^0``
+    * ``n = n + c``
+    * ``c = 0`` => Significa que el umbral puede ser cualquier valor
     * => Pero empíricamente, no todos son iguales. Tomar el que de mejores resultados
 ```c
-#define UMBRAL 3                                // Personalmente tomo 3, como el número de impares
 #define IMPARES 3
+#define UMBRAL 3                                // Personalmente tomo 3, como el número IMPARES
 #define LIBRE -1                                // En un principio, el vector de impares está libre al completo
 
 void clasico(ivector v, int i, int f, ivector aux) {
@@ -65,9 +65,9 @@ void clasico(ivector v, int i, int f, ivector aux) {
 
 void impares(ivector v, int i, int f, ivector aux) {
     int t = f-i+1;
-    if (t <= UMBRAL){
+    if (t <= UMBRAL) {
         clasico(v,i,f,aux);
-    }else{
+    } else {
         int m =  i + t/2;
         impares(v, i, m - 1, aux);
         impares(v, m, f, aux);

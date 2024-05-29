@@ -15,7 +15,7 @@
 
 ***
 
-![descripcion](./Plantilla.md "titulo")
+![descripcion](./Plantilla2.md "titulo")
 
 # Solución
 [Este problema](#enunciado) se puede resolver en C de la siguiente forma:

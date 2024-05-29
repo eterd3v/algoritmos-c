@@ -15,3 +15,5 @@ Repositorio-manual de resolución de diferentes tipos de problemas y algoritmos 
  - [Vuelta Atrás](./Vuelta%20atras/Index.md)
  - [Programación dinámica](./Programacion%20dinamica/Index.md)
  - [Probabilísticos](./Probabilisticos/Index.md)
+
+> Puedes añadir tus propios ejercicios 

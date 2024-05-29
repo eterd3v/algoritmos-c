@@ -20,9 +20,7 @@
 
 > Parciales de prácticas
 > 1. [Parcial desconocido I](./parcial1.md)
-> 2. []()
-> 3. []()
-> 4. []()
+> 2. [Parcial desconocido II](./parcial2.md)
   
 > Ejercicios sueltos
 > 1. [Impares mínimos de un vector](./problemaImparesMin.md)
