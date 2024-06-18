@@ -4,7 +4,7 @@
 
 Repositorio-manual de resolución de diferentes tipos de problemas y algoritmos en C.
 
-> **Se recomienda intentar solucionarlos sin esta ayuda de antemano**, y durante un buen rato.
+> **Se recomienda intentar solucionarlos con papel y boli sin esta ayuda de antemano**, y durante un buen rato.
 
 > Sólo la lectura puede ser insuficiente, ya que **razonar una solución es esencial para resolver problemas del estilo.**
 
@@ -16,4 +16,7 @@ Repositorio-manual de resolución de diferentes tipos de problemas y algoritmos 
  - [Programación dinámica](./Programacion%20dinamica/Index.md)
  - [Probabilísticos](./Probabilisticos/Index.md)
 
-> Puedes añadir tus propios ejercicios 
+
+TODO: Poner nombres a los ejercicios de relación y telemáticos
+
+[//]: # (> Puedes añadir tus propios ejercicios )
