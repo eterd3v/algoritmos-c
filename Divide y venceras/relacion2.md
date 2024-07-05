@@ -8,7 +8,6 @@
 * [Índice del problema](#índice-del-problema)
 * [Enunciado](#enunciado)
 * [Solución](#solución)
-    * [Salida de la solución](#salida-de-la-solución)
 <!-- TOC -->
 
 # Enunciado
@@ -67,11 +66,4 @@ int ternaria(ivector v, int i, int f, int* buscar) {
         else                            return ternaria(v,t1,t2,buscar);    // entre t1 y t2
     }
 }
-```
-
-### Salida de la solución
-
-```
-(16, 15, 14, 13, 12, 11, 10, 9, 149, 125, 290, 116, 231, 34, 202, 471),          j: 0,  k: 15
-(9, 10, 11, 12, 13, 14, 15, 16, 34, 116, 125, 149, 202, 231, 290, 471),          j: 0,  k: 15
 ```

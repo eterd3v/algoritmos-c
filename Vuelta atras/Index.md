@@ -11,8 +11,8 @@
 > 2. [Ejercicio 2 de la relación](./relacion2.md)
 > 3. [Ejercicio 3 de la relación](./relacion3.md)
 > 4. [Ejercicio 4 de la relación](./relacion4.md)
-> 5. [Ejercicio 5 de la relación]()
-> 6. [Ejercicio 6 de la relación](./relacion6.md)
+> 5. [Ejercicio 5 de la relación FALTA](./relacion5.md)
+> 6. [Ejercicio 6 de la relación FALTA](./relacion6.md)
 
 > Ejercicios telemáticos
 > 1. [abc]()
@@ -25,3 +25,6 @@
 
 > Ejercicios de exámenes
 > 1. [Examen extraordinaria 21-22](./examen2122extra.md)
+> 2. [Examen ordinaria 21-22](./examen2122mayo.md)
+> 3. [Examen junio 2015, modelo A](./examen1415junioA.md)
+> 4. [Examen junio 11-12](./examen1112junio.md)

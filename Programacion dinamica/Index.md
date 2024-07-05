@@ -10,8 +10,8 @@
 > 1. [Ejercicio 1 de la relación](./relacion1.md)
 > 2. [Ejercicio 2 de la relación](./relacion2.md)
 > 3. [Ejercicio 3 de la relación](./relacion3.md)
-> 4. [Ejercicio 4 de la relación]()
-> 5. [Ejercicio 5 de la relación]()
+> 4. [Ejercicio 4 de la relación FALTA]()
+> 5. [Ejercicio 5 de la relación](./relacion5.md)
 > 6. [Ejercicio 6 de la relación](./relacion6.md)
 
 > Ejercicios telemáticos
@@ -28,3 +28,4 @@
 > Ejercicios de exámenes
 > 1. [Examen ordinaria 22-23](./examen2223ord.md)
 > 2. [Examen ordinaria 14-15](./examen1415ord.md)
+> 3. [Examen junio 11-12](./examen1112junio.md)

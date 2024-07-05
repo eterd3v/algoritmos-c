@@ -32,6 +32,9 @@ demostrar que el algoritmo encuentra siempre la solución óptima
 # Solución
 [Este problema](#enunciado) se puede resolver en C de la siguiente forma:
 
+**ATENCIÓN**: Existen formas más fáciles de resolverlo usando un voraz genérico, 
+pero he decidido resolverlo con Dijstra como excusa para poder verlo en acción
+
 ### Algoritmo principal
 
 Es una primera parte del problema, que es conocer el camino mínimo entre París y Jaén
@@ -54,7 +57,7 @@ void djistra(imatriz2d dist, ivector distMin, ivector precedente) {
     }
 
     int v, min;
-    for (int i = 0; i < N-2; ++i) {      // Es N-2 porque distMin no varía en la última iteración al
+    for (int i = 0; i < N-2; ++i) {      // N-2, la distancia no cambia al
                                          // quitar el último elemento (sinConsiderar[v]=0)
         min = L_MAX;
         for (int k = 0; k < N-1; ++k)
@@ -67,10 +70,10 @@ void djistra(imatriz2d dist, ivector distMin, ivector precedente) {
         sinConsiderar[v] = 0;            // Una vez tenemos k, lo marcamos como considerado (booleano)
 
         for (int w = 0; w < N-1; ++w)
-            if (sinConsiderar[w])
+            if (sinConsiderar[w])        // Si el nodo w no está considerado            
                 if (distMin[w] > distMin[v] + dist[v][w]){
                     distMin[w] = distMin[v] + dist[v][w];
-                    precedente[w] = v;
+                    precedente[w] = v;   // Actualizamos el vector de distancias mínimas
                 }
     }
 

@@ -19,8 +19,14 @@
 > 1. [Ejercicio telemático 1](./tele1.md)
 > 2. [Ejercicio telemático 2](./tele2.md)
 
+> Ejercicios inventados
+> 1. [Dijstra]()
+> 2. [Prim]()
+
 > Parciales de prácticas
 > 1. [abc]()
 
 > Ejercicios de exámenes
-> 1. [Examen ordinaria 22-23](./examen2223ord.md)
+> 1. [Examen extraordinaria 23-24](./examen2324extra.md)
+> 2. [Examen ordinaria 22-23](./examen2223ord.md)
+> 3. [Examen ordinaria 15-16](./examen1516ord.md)

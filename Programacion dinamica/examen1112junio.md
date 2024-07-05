@@ -5,17 +5,9 @@
 <!-- TOC -->
 * [Índice del problema](#índice-del-problema)
 * [Enunciado](#enunciado-)
-    * [_Problema 3 de la ordinaria 14-15_](#problema-3-de-la-ordinaria-14-15)
+    * [_Problema 1 de junio del 11-12_](#problema-1-de-junio-del-11-12)
 * [Solución](#solución)
-  * [Solución 1](#solución-1)
-  * [Solución 2](#solución-2)
-  * [Solución 3](#solución-3)
-* [Funciones auxiliares](#funciones-auxiliares-)
-  * [Para las soluciones](#para-las-soluciones)
-  * [Para el recorrido](#para-el-recorrido)
-* [Salidas de soluciones](#salidas-de-soluciones)
-  * [Salida 1](#salida-1)
-  * [Salida 2](#salida-2)
+* [Salida de la solución](#salida-de-la-solución)
 <!-- TOC -->
 
 

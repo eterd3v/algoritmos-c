@@ -16,7 +16,3 @@ Repositorio-manual de resolución de diferentes tipos de problemas y algoritmos 
  - [Programación dinámica](./Programacion%20dinamica/Index.md)
  - [Probabilísticos](./Probabilisticos/Index.md)
 
-
-TODO: Poner nombres a los ejercicios de relación y telemáticos
-
-[//]: # (> Puedes añadir tus propios ejercicios )

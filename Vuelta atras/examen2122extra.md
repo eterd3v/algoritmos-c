@@ -5,12 +5,12 @@
 <!-- TOC -->
 * [Índice del problema](#índice-del-problema)
 * [Enunciado](#enunciado-)
-    * [Problema 1 de la extraordinaria 21-22](#problema-1-de-la-extraordinaria-21-22)
+    * [_Problema 1 de la extraordinaria 21-22_](#problema-1-de-la-extraordinaria-21-22)
 * [Solución](#solución)
     * [Algoritmo principal](#algoritmo-principal)
-  * [Salida de la solución](#salida-de-la-solución)
-  * [Programa principal (opcional)](#programa-principal-opcional)
-  * [Funciones auxiliares (opcional)](#funciones-auxiliares-opcional)
+    * [Salida de la solución](#salida-de-la-solución)
+    * [Programa principal (opcional)](#programa-principal-opcional)
+    * [Funciones auxiliares (opcional)](#funciones-auxiliares-opcional)
 <!-- TOC -->
 
 

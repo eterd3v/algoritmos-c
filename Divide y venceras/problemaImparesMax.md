@@ -37,6 +37,7 @@ Los 3 impares mas grandes que hay en ``v`` son ``9``, ``5`` y ``7``
     * ``n = n + c``
     * ``c = 0`` => Significa que el umbral puede ser cualquier valor
     * => Pero empíricamente, no todos son iguales. Tomar el que de mejores resultados
+
 ```c
 #define IMPARES 3
 #define UMBRAL 3                                // Personalmente tomo 3, como el número IMPARES

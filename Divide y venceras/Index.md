@@ -22,10 +22,12 @@
 > 1. [Parcial desconocido I](./parcial1.md)
 > 2. [Parcial desconocido II](./parcial2.md)
   
-> Ejercicios sueltos
-> 1. [Impares mínimos de un vector](./problemaImparesMin.md)
+> Otros ejercicios
+> 1. [Impares máximos de un vector](./problemaImparesMax.md)
+> 2. [Transponer k elementos de un vector](./problemaTransponer.md)
 
 > Ejercicios de exámenes
-> 1. [Examen ordinaria 23-24](./examen2324ord.md)
-> 2. [Examen ordinaria 21-22](./examen2122ord.md)
+> 1. [Examen extraordinaria 23-24](./examen2324extra.md)
+> 2. [Examen ordinaria 23-24](./examen2324ord.md)
 > 3. [Examen extraordinaria 21-22](./examen2122extra.md)
+> 4. [Examen ordinaria 21-22](./examen2122ord.md)
