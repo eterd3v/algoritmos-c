@@ -8,20 +8,20 @@
 **Para ver otras técnicas haz clic [aquí](../README.md)**
 
 > Relación de prácticas
-> 1. [Ejercicio 1 de la relación](./relacion1.md)
-> 2. [Ejercicio 2 de la relación](./relacion2.md)
-> 3. [Ejercicio 3 de la relación](./relacion3.md)
-> 4. [Ejercicio 4 de la relación](./relacion4.md)
-> 5. [Ejercicio 5 de la relación](./relacion5.md)
-> 6. [Ejercicio 6 de la relación](./relacion6.md)
+> 1. [Ejercicio 1: Planificación de tareas con tiempo límite](./relacion1.md)
+> 2. [Ejercicio 2: Reordenación de vector con suma máxima](./relacion2.md)
+> 3. [Ejercicio 3: Red de ordenadores](./relacion3.md)
+> 4. [Ejercicio 4: Iluminación continua](./relacion4.md)
+> 5. [Ejercicio 5: El camionero de Jaén](./relacion5.md)
+> 6. [Ejercicio 6: Distribución de libros](./relacion6.md)
 
 > Ejercicios telemáticos
-> 1. [Ejercicio telemático 1](./tele1.md)
-> 2. [Ejercicio telemático 2](./tele2.md)
+> 1. [Telemático 1: Cuadrados perfectos](./tele1.md)
+> 2. [Telemático 2: Almacenamiento de información](./tele2.md)
 
 > Ejercicios inventados
-> 1. [Dijstra]()
-> 2. [Prim]()
+> 1. [Dijstra](./dijstra.md)
+> 2. [Prim](./prim.md)
 
 > Parciales de prácticas
 > 1. [abc]()

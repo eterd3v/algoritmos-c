@@ -7,16 +7,16 @@
 **Para ver otras técnicas haz clic [aquí](../README.md)**
 
 > Relación de prácticas
-> 1. [Ejercicio 1 de la relación](./relacion1.md)
-> 2. [Ejercicio 2 de la relación](./relacion2.md)
-> 3. [Ejercicio 3 de la relación](./relacion3.md)
-> 4. [Ejercicio 4 de la relación](./relacion4.md)
-> 5. [Ejercicio 5 de la relación](./relacion5.md)
-> 6. [Ejercicio 6 de la relación](./relacion6.md)
+> 1. [Ejercicio 1: Algoritmo mergesort](./relacion1.md)
+> 2. [Ejercicio 2: Busqueda ternaria](./relacion2.md)
+> 3. [Ejercicio 3: Elemento mayoritario](./relacion3.md)
+> 4. [Ejercicio 4: Suma de elementos excepto el mayor y el menor](./relacion4.md)
+> 5. [Ejercicio 5: Números en una matriz pertenecientes a un rango](./relacion5.md)
+> 6. [Ejercicio 6: Carreras de líquidos](./relacion6.md)
 
 > Ejercicios telemáticos
-> 1. [Ejercicio telemático 1](./tele1.md)
-> 2. [Ejercicio telemático 2](./tele1.md)
+> 1. [Telemático 1: Centro de la unión de dos vectores](./tele1.md)
+> 2. [Telemático 2: Máxima nota](./tele2.md)
 
 > Parciales de prácticas
 > 1. [Parcial desconocido I](./parcial1.md)

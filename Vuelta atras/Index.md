@@ -7,15 +7,16 @@
 **Para ver otras técnicas haz clic [aquí](../README.md)**
 
 > Relación de prácticas
-> 1. [Ejercicio 1 de la relación](./relacion1.md)
-> 2. [Ejercicio 2 de la relación](./relacion2.md)
-> 3. [Ejercicio 3 de la relación](./relacion3.md)
-> 4. [Ejercicio 4 de la relación](./relacion4.md)
-> 5. [Ejercicio 5 de la relación FALTA](./relacion5.md)
-> 6. [Ejercicio 6 de la relación FALTA](./relacion6.md)
+> 1. [Ejercicio 1: Formas de sacar un valor dado con n dados](./relacion1.md)
+> 2. [Ejercicio 2: Subconjuntos de suma exacta](./relacion2.md)
+> 3. [Ejercicio 3: Combinaciones con 5 vocales](./relacion3.md)
+> 4. [Ejercicio 4: Salida más corta de un laberinto](./relacion4.md)
+> 5. [Ejercicio 5: El cambio de moneda FALTA](./relacion5.md)
+> 6. [Ejercicio 6: El camino hamiltoniano en un grafo no dirigido FALTA](./relacion6.md)
 
 > Ejercicios telemáticos
-> 1. [abc]()
+> 1. [Telemático 1: Suma de dígitos](./tele1.md)
+> 2. [Telemático 2: Huelga de transportistas](./tele2.md)
 
 > Ejercicios inventados
 > 1. [El problema del caballo de Ajedez](./problemaCaballo64.md)

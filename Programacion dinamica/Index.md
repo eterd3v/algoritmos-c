@@ -7,16 +7,16 @@
 **Para ver otras técnicas haz clic [aquí](../README.md)**
 
 > Relación de prácticas
-> 1. [Ejercicio 1 de la relación](./relacion1.md)
-> 2. [Ejercicio 2 de la relación](./relacion2.md)
-> 3. [Ejercicio 3 de la relación](./relacion3.md)
-> 4. [Ejercicio 4 de la relación FALTA]()
-> 5. [Ejercicio 5 de la relación](./relacion5.md)
-> 6. [Ejercicio 6 de la relación](./relacion6.md)
+> 1. [Ejercicio 1: Cálculo de funciones I](./relacion1.md)
+> 2. [Ejercicio 2: Cálculo de funciones II](./relacion2.md)
+> 3. [Ejercicio 3: Cálculo de funciones III](./relacion3.md)
+> 4. [Ejercicio 4: Cambio de monedas](./relacion4.md)
+> 5. [Ejercicio 5: El problema del botellón](./relacion5.md)
+> 6. [Ejercicio 6: Los puentes que unen un grupo de islas](./relacion6.md)
 
 > Ejercicios telemáticos
-> 1. [Ejercicio telemático 1](./tele1.md)
-> 2. [Ejercicio telemático 2](./tele2.md)
+> 1. [Telemático 1: Tarificación postal](./tele1.md)
+> 2. [Telemático 2: Serie de Stern](./tele2.md)
 
 > Parciales de prácticas
 > 1. [Parcial 23-24](./parcial1.md)
